@@ -53,7 +53,11 @@ A user (address) can have one CDP per collateral market.
 
 CDPs should be easily discoverable via generous event data and versatile view functions. This is to decrease the insolvancy risk of the protocol, but surfacing profitable liquidations for liquidation bots.
 
+### Liquidity Mining
 
+A portion of vesting TZAR tokens will be emitted over the first 2 years of the protocol's existance. Emissions will linearly decline over this period.
+
+These rewards will flow to ZARX CDP holders (in proportion to time holding the CDP) and liquidators.
 
 ### Liquidations
 
