@@ -47,6 +47,25 @@ Each collateral type has it's own
  - liquidation ratio
  - liquidation reward
 
+### Collateralized Debt Positions (CDPs)
+
+A user (address) can have one CDP per collateral market.
+
+CDPs should be easily discoverable via generous event data and versatile view functions. This is to decrease the insolvancy risk of the protocol, but surfacing profitable liquidations for liquidation bots.
+
+
+
+### Liquidations
+
+Liquidiations happen smoothly (inspired by Aave) and don't liquidate all capital at once.
+
+<!-- TODO smooth liquidation research needed -->
+
+When a liquidation is available, a user must supply the required amount of ZARX back to the protocol (to be burnt)
+
+
+
+
 ## Installation
 
 To install with [Foundry](https://github.com/gakonst/foundry):
