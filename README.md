@@ -90,6 +90,8 @@ Only stTZAR holders are eligible for voting in protocol governance, which includ
 
 stTZAR may receive a direct share of protocol revenue, but the fee switch will be set to 0 at launch. This may be changed later in a governance vote.
 
+To counteract the inflationary effects of the liquidity mining program, a similar emission of TZAR tokens will flow to stakers, linearly decreasing over 2 years.
+
 ### Governance
 
 Snapshot and the stTZAR balances will be used to implement governance voting for the protocol. The voted proposals will then be actioned by the multisig in the short term.
