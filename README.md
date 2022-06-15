@@ -64,7 +64,31 @@ Liquidiations happen smoothly (inspired by Aave) and don't liquidate all capital
 When a liquidation is available, a user must supply the required amount of ZARX back to the protocol (to be burnt)
 
 
+### Protocol Fees and Revenue
 
+The protocol earns revenue in a few different ways:
+
+- Minting fees
+- Liquidation fees
+- Low-risk yield generated on underlying collateral (supplied to Aave)
+
+All protocol revenue flows into a protocol treasury, which is directly managed by the protocol multi-sig, but ultimately governed through proposals by stTZAR holders.
+
+A fee switch exists which can direct a portion of protocol revenue directly to the stTZAR stakers, but will be set to 0% at launch.
+
+### Staking
+
+The native token of the protocol, TZAR, can be staked for stTZAR.
+
+For the first 60 days after staking, stTZAR is non-transferrable and non-withdrawable for TZAR. After 60 days, stTZAR can be transferred or burnt to withdraw the underlying TZAR and any rewards earned over the staking period.
+
+Only stTZAR holders are eligible for voting in protocol governance, which includes governance of the protocol treasury funds.
+
+stTZAR may receive a direct share of protocol revenue, but the fee switch will be set to 0 at launch. This may be changed later in a governance vote.
+
+### Governance
+
+Snapshot and the stTZAR balances will be used to implement governance voting for the protocol. The voted proposals will then be actioned by the multisig in the short term.
 
 ## Installation
 
