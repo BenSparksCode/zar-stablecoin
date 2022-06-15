@@ -1,14 +1,20 @@
-# Foundry template
+# ZAR Stablecoin Experimental System
 
-This is a template for a Foundry project.
+## Resources
+
+Price Feed for ZAR stablecoin value
+
+- [ZAR / USD Chainlink Price Feed](https://data.chain.link/ethereum/mainnet/fiat/zar-usd)
+
+Price Feeds for Collateral types
+
+- [ETH / USD Chainlink Price Feed](https://data.chain.link/ethereum/mainnet/crypto-usd/eth-usd)
+
+- [USDC / USD Chainlink Price Feed](https://data.chain.link/ethereum/mainnet/stablecoins/usdc-usd)
+
+
 
 ## Installation
-
-To install with [DappTools](https://github.com/dapphub/dapptools):
-
-```
-dapp install [user]/[repo]
-```
 
 To install with [Foundry](https://github.com/gakonst/foundry):
 
