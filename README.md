@@ -12,7 +12,40 @@ Price Feeds for Collateral types
 
 - [USDC / USD Chainlink Price Feed](https://data.chain.link/ethereum/mainnet/stablecoins/usdc-usd)
 
+## Architecture
 
+If Diamond:
+```
+- Diamond
+    - AppStorage
+    - Facets
+        - Collateral Market Facet
+        - Collateral Market Factory Facet
+        - Liquidation Facet
+        - Oracle Facet
+        - Treasury Facet
+        - Staking Facet
+```
+
+## Mechanisms
+
+### Minting ZARX
+
+ZARX is the stablecoin in this protocol which aims to be pegged to the value of ZAR, in a 1:1 ratio.
+
+ZARX can only be minted by users who have deposited collateral into the system, up to a specific collateral ratio which is dependent on the type of collateral used.
+
+The protocol takes a once-off fee (which varies depending on the collateral type) when ZARX is minted.
+
+### Collateral Types
+
+New collateral types can be added to the protocol. At the start we aim to only support WETH and USDC.
+
+Each collateral type has it's own
+ - minting fee
+ - collateralization ratio limit
+ - liquidation ratio
+ - liquidation reward
 
 ## Installation
 
