@@ -5,14 +5,25 @@ contract LiquidityRewarder {
 
     uint256 public EPOCH_DURATION; // seconds duration of each epoch
 
-    mapping(uint256 => uint256) public epochBudgets; // end timestamp => budget amount
+    uint256 public furthestEpochID;
+    mapping(uint256 => uint256) public epochBudgets; // epochID => budget amount
+
 
 
     // Has epochs and associated reward budgets
 
-    // Make onlyOwner
+    // TODO make onlyOwner
     function addRewardEpoch(uint256 _rewardAmount, uint256 ) public {
 
+    }
+
+
+    // TODO make onlyOwner
+    function batchAddEpochRewards(uint256[] memory _rewardAmounts, uint256[] memory epochIDs) public {
+
+        // TODO inside for loop
+        
+        // Check epochID 
     }
 
 
